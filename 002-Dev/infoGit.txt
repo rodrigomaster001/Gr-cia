@@ -256,3 +256,23 @@ SEGUE MAIS CONSOLES APÓS O PRIMEIRO SALVAMENTO:
                 modified:   002-Dev/infoGit.txt
 
         no changes added to commit (use "git add" and/or "git commit -a")
+
+        PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git commit -m "arquivo infoGit.txt: formatação e mais consoles git"
+        [main f4f046a] arquivo infoGit.txt: formatação e mais consoles git
+        1 file changed, 221 insertions(+), 173 deletions(-)
+        PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git push
+        Enumerating objects: 7, done.
+        Counting objects: 100% (7/7), done.
+        Delta compression using up to 8 threads
+        Compressing objects: 100% (2/2), done.
+        Writing objects: 100% (4/4), 1.46 KiB | 749.00 KiB/s, done.
+        Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+        remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+        To https://github.com/rodrigomaster001/Grecia.git
+        73590e9..f4f046a  main -> main
+        PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git status
+        On branch main
+        Your branch is up to date with 'origin/main'.
+
+        nothing to commit, working tree clean
+        PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> 
