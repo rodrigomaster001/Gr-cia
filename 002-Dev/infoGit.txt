@@ -1,0 +1,5 @@
+Estretura de pastas propostas por Zeus:
+    - Zeus
+    - Atena
+    - Poseidon
+    - Ares
