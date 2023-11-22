@@ -1,5 +1,210 @@
 Estretura de pastas propostas por Zeus:
+- Grecia
     - Zeus
     - Atena
     - Poseidon
     - Ares
+
+Primeiro crio um novo repositório no GitHub
+    - nome: Grécia
+
+Após a criação o GitHub recomenta a criação de arquivo README.md, como segue:
+    Quick setup — if you’ve done this kind of thing before
+    or	
+    https://github.com/rodrigomaster001/Gr-cia.git
+    Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
+
+    …or create a new repository on the command line
+    echo "# Gr-cia" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/rodrigomaster001/Gr-cia.git
+    git push -u origin main
+    …or push an existing repository from the command line
+    git remote add origin https://github.com/rodrigomaster001/Gr-cia.git
+    git branch -M main
+    git push -u origin main
+    …or import code from another repository
+    You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+CONSOLES DOS COMANDOS GIT 
+
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git init
+Initialized empty Git repository in C:/Alcasystem/RMS/097-Cardio/001-Cardio/001-Zeus/.git/
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git log
+fatal: your current branch 'master' does not have any commits yet
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git status
+On branch master
+
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        002-Dev/
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> dit add .
+dit : O termo 'dit' não é reconhecido como nome de cmdlet, função, arquivo de script ou programa operável. Verifique a grafia do nome ou, se um caminho    
+No linha:1 caractere:1
++ dit add .
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (dit:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git add .
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   002-Dev/info.txt
+
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git commit -m "inicial"
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+
+fatal: unable to auto-detect email address (got 'User@DESKTOP-RS9CG10.(none)')
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   002-Dev/info.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+        deleted:    002-Dev/info.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git add .
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   002-Dev/infoGit.txt
+
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git commit -m "alteracao de nome arquivo info.txt para infoGit.txt"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'User@DESKTOP-RS9CG10.(none)')
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git cofing user.email "rodrigo.master.001@gmail.com"
+git: 'cofing' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git --help
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git config user.name "rodrigomaster001"
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git remote add origin https://github.com/rodrigomaster001/Grecia.git
+error: failed to push some refs to 'https://github.com/rodrigomaster001/Grecia.git'
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/rodrigomaster001/Grecia.git'
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git push --set-upstream origin main
+error: failed to push some refs to 'https://github.com/rodrigomaster001/Grecia.git'
+error: failed to push some refs to 'https://github.com/rodrigomaster001/Grecia.git'
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git branch -M main
+error: remote origin already exists.
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git push -u origin main
+error: failed to push some refs to 'https://github.com/rodrigomaster001/Grecia.git'
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git push --set-upstream origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/rodrigomaster001/Grecia.git'
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git branch
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git branch
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git branch -M main
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git commit -m "branch main criada" 
+[main (root-commit) 819062f] branch main criada
+ 1 file changed, 5 insertions(+)
+ create mode 100644 002-Dev/infoGit.txt
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git branch
+* main
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git branch -M main
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git add .
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git commit -m "primeiro envio ao github após configurações locais do git"
+On branch main
+nothing to commit, working tree clean
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 326 bytes | 326.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/rodrigomaster001/Grecia.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Alcasystem\RMS\097-Cardio\001-Cardio\001-Zeus> 
